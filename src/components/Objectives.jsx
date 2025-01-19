@@ -1,4 +1,5 @@
-import horseVideo from '../../public/video/horserunning.mp4'; 
+import logo3 from '../../public/image/logo3.jpg'
+
 
 const Objectives = () => {
     return (
@@ -19,15 +20,12 @@ const Objectives = () => {
                                 </p>
                             </div>
 
-                            {/* Video Content */}
-                            <div className="w-full max-w-[400px] lg:max-w-[400px] mb-6">
-                                <video
-                                    src={horseVideo}
-                                    className="rounded-lg w-full object-cover h-[150px] lg:h-[250px] mb-2"
-                                    autoPlay
-                                    muted
-                                    loop
-                                    playsInline
+                            {/* Image Content */}
+                            <div className="w-full max-w-[200px] lg:max-w-[400px] mb-6">
+                                <img
+                                    src={logo3}
+                                    alt="Banner"
+                                    className="rounded-lg w-full object-cover h-[300px] lg:h-[400px] mb-2"
                                 />
                             </div>
                         </div>
