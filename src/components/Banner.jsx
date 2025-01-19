@@ -1,11 +1,25 @@
-import logo from '../../public/image/logo2.jpg'
+import logo from '../../public/image/logo2.jpg';
+import '../../src/Banner.css'; // Import the custom CSS
+
 const Banner = () => {
     return (
         <div className="hero bg-[#161614] sm:py-4 md:py-12 lg:py-16">
-            <div className="hero-content flex-col lg:flex-row-reverse">
+            <div className="hero-content flex-col lg:flex-row-reverse relative">
+                {/* Animated "Buy Now!" button at the top-right */}
+                <div className="buy-now-top">
+                    <button className="buy-now-button">Buy Now!</button>
+                </div>
+                
                 <img
                     src={logo}
-                    className="max-w-72 lg:max-w-sm rounded-[50%] shadow-2xl mx-auto lg:mx-0" />
+                    className="max-w-72 lg:max-w-sm rounded-[50%] shadow-2xl mx-auto lg:mx-0 rotate-circle"
+                />
+                
+                {/* Animated "Buy Now!" button at the bottom-right */}
+                <div className="buy-now-bottom">
+                    <button className="buy-now-button">Buy Now!</button>
+                </div>
+
                 <div className="mr-12 sm:mx-4 lg:mx-0">
                     <h1 className="mb-3 text-3xl lg:text-5xl font-bold text-white uppercase">
                         Revolutionizing Arab <br />Financial Integration <br />
@@ -24,5 +38,4 @@ const Banner = () => {
 };
 
 export default Banner;
-
 

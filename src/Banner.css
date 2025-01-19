@@ -1,0 +1,64 @@
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate-circle {
+    animation: rotate 4s linear infinite;
+}
+
+/* Positioning for Buy Now! buttons */
+.buy-now-top, .buy-now-bottom {
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f3b841;
+    text-transform: uppercase;
+    animation: moveText 3s ease-in-out infinite;
+}
+
+.buy-now-top {
+    top: 10px; /* Adjust top position */
+    right: 10px; /* Align to the top-right */
+}
+
+.buy-now-bottom {
+    bottom: 10px; /* Adjust bottom position */
+    right: 10px; /* Align to the bottom-right */
+    animation-delay: 1s; /* Delay for the bottom text */
+}
+
+.buy-now-button {
+    background-color: #f3b841;
+    color: #161614;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.buy-now-button:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+}
+
+/* Animation for the text moving up and down */
+@keyframes moveText {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}

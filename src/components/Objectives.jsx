@@ -1,4 +1,5 @@
-import dinar2 from '../../public/image/dinar2.jpg'
+import horse from '../../public/image/horse.jpg'
+import falcon from '../../public/image/falcon.jpg'
 
 const Objectives = () => {
     return (
@@ -11,20 +12,25 @@ const Objectives = () => {
                         <div className="flex flex-col items-start">
                             {/* Text Content */}
                             <div className="mb-6">
-                                <h1 className="text-2xl lg:text-4xl font-bold mb-4">
-                                    Empowering Arab <br /> Finance with <br /><span className="text-[#f3b841]">Dinar Coin</span>.
+                                <h1 className="text-2xl lg:text-3xl font-bold mb-4 uppercase">
+                                    Empowering Arab Finance with <span className="text-[#f3b841]">Dinar Coin</span>.
                                 </h1>
-                                <p className="text-2xl lg:text-2xl mb-3">
+                                <p className="text-2xl lg:text-2xl uppercase">
                                     A Collective Honoring <br /> Bravery & Resilience
                                 </p>
                             </div>
 
                             {/* Image Content */}
-                            <div className="w-full max-w-[300px] lg:max-w-[400px] mb-6">
+                            <div className="w-full max-w-[200px] lg:max-w-[350px] mb-6">
                                 <img
-                                    src={dinar2}
+                                    src={horse}
                                     alt="Banner"
-                                    className="rounded-lg w-full object-cover h-[400px] lg:h-[500px]"
+                                    className="rounded-lg w-full object-cover h-[150px] lg:h-[250px] mb-2"
+                                />
+                                <img
+                                    src={falcon}
+                                    alt="Banner"
+                                    className="rounded-lg w-full object-cover h-[200px] lg:h-[300px]"
                                 />
                             </div>
                         </div>
