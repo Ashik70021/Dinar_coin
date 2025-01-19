@@ -1,3 +1,5 @@
+import dinar2 from '../../public/image/dinar2.jpg'
+
 const Objectives = () => {
     return (
         <div className="bg-[#161614] border-t-[#f3b841] py-24">
@@ -20,7 +22,7 @@ const Objectives = () => {
                             {/* Image Content */}
                             <div className="w-full max-w-[300px] lg:max-w-[400px] mb-6">
                                 <img
-                                    src="../../public/image/dinar2.jpg"
+                                    src={dinar2}
                                     alt="Banner"
                                     className="rounded-lg w-full object-cover h-[400px] lg:h-[500px]"
                                 />

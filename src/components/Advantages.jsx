@@ -1,6 +1,7 @@
 import { FaMoneyBillWave, FaShieldAlt, FaHandsHelping } from "react-icons/fa";
 import { RiTeamLine } from "react-icons/ri";
 import { MdOutlinePrivacyTip } from "react-icons/md";
+import dinarcoin from '../../public/image/dinarcoin.jpg'; 
 
 const Advantages = () => {
     const advantages = [
@@ -45,7 +46,7 @@ const Advantages = () => {
         <div
             className="text-white py-12 px-6 border-t-2 border-t-[#f3b841]"
             style={{
-                backgroundImage: 'url("../../public/image/dinarcoin.jpg")',
+                backgroundImage: `url(${dinarcoin})`, 
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
             }}
@@ -78,7 +79,6 @@ const Advantages = () => {
                 </div>
             </div>
         </div>
-
     );
 };
 
