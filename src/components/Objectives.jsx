@@ -1,5 +1,4 @@
-import horse from '../../public/image/horse.jpg'
-import falcon from '../../public/image/falcon.jpg'
+import horseVideo from '../../public/video/horserunning.mp4'; 
 
 const Objectives = () => {
     return (
@@ -20,17 +19,15 @@ const Objectives = () => {
                                 </p>
                             </div>
 
-                            {/* Image Content */}
-                            <div className="w-full max-w-[200px] lg:max-w-[350px] mb-6">
-                                <img
-                                    src={horse}
-                                    alt="Banner"
+                            {/* Video Content */}
+                            <div className="w-full max-w-[400px] lg:max-w-[400px] mb-6">
+                                <video
+                                    src={horseVideo}
                                     className="rounded-lg w-full object-cover h-[150px] lg:h-[250px] mb-2"
-                                />
-                                <img
-                                    src={falcon}
-                                    alt="Banner"
-                                    className="rounded-lg w-full object-cover h-[200px] lg:h-[300px]"
+                                    autoPlay
+                                    muted
+                                    loop
+                                    playsInline
                                 />
                             </div>
                         </div>
