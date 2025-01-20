@@ -4,6 +4,7 @@ import BuyNowSection from "./BuyNowSection";
 import Distribution from "./Distribution";
 import Marq from "./Marq";
 import Objectives from "./Objectives";
+import Viewwhitepaper from "./Viewwhitepaper";
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <Objectives></Objectives>
             <Distribution></Distribution>
             <Advantages></Advantages>
+            <Viewwhitepaper></Viewwhitepaper>
             <BuyNowSection></BuyNowSection>
         </div>
     );

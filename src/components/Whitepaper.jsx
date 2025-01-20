@@ -1,9 +1,10 @@
+import Contectpaper from "./Contectpaper";
 
 
 const Whitepaper = () => {
     return (
         <div>
-            white
+            <Contectpaper></Contectpaper>
         </div>
     );
 };
