@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -16,9 +17,10 @@ const Navbar = () => {
 
       {/* Desktop Navigation Links */}
       <ul className="hidden md:flex space-x-6 text-white text-lg lg:text-xl font-medium">
-        <li className="hover:text-[#DEC17D] cursor-pointer">Home</li>
+        <li className="hover:text-[#DEC17D] cursor-pointer"><NavLink to="/">Home</NavLink></li>
         <li className="hover:text-[#DEC17D] cursor-pointer">Contract Address</li>
         <li className="hover:text-[#DEC17D] cursor-pointer">How to Buy</li>
+        <li className="hover:text-[#DEC17D] cursor-pointer"><NavLink to="/whitepaper">Whitepaper</NavLink></li>
       </ul>
 
       {/* Buy Now Button (Visible on desktop) */}
@@ -46,9 +48,10 @@ const Navbar = () => {
             ✕
           </button>
           <ul className="space-y-6 text-white text-lg font-medium">
-            <li className="hover:text-[#DEC17D] cursor-pointer" onClick={toggleSidebar}>Home</li>
+            <li className="hover:text-[#DEC17D] cursor-pointer" onClick={toggleSidebar}><NavLink to="/">Home</NavLink></li>
             <li className="hover:text-[#DEC17D] cursor-pointer" onClick={toggleSidebar}>Contract Address</li>
             <li className="hover:text-[#DEC17D] cursor-pointer" onClick={toggleSidebar}>How to Buy</li>
+            <li className="hover:text-[#DEC17D] cursor-pointer" onClick={toggleSidebar}><NavLink to="/whitepaper">Whitepaper</NavLink></li>
           </ul>
           <button
             onClick={toggleSidebar}
