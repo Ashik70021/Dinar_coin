@@ -6,6 +6,7 @@ const Viewwhitepaper = () => {
             <Link to='/whitepaper'><button className="px-6 py-3 bg-[#f3b841] text-[#161614] font-bold rounded-md hover:scale-105 transition-transform">
                 VIEW WHITEPAPER
             </button></Link>
+            
         </section>
 
     );

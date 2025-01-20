@@ -19,12 +19,25 @@ const Contectpaper = () => {
             </div>
             <div className="mt-6">
                 <p className="text-s lg:text-lg font-normal align-middle">
-                    For the Dinar Coin project, the Binance Smart Chain (BSC) has been chosen as the blockchain platform. BSC offers a highly efficient, scalable, and low-cost environment for developing decentralized applications (dApps) and digital currencies. Its compatibility with the Ethereum Virtual Machine (EVM) allows seamless integration with existing tools and ecosystems, enabling faster development and deployment of the Dinar Coin ecosystem. The Binance Smart Chain also ensures high transaction throughput and provides robust security, making it an ideal choice for establishing a secure and efficient digital currency for the Arab region.
+                    Solana has been selected as the blockchain platform for the Dinar Coin project. Solana provides a highly efficient, scalable, and low-cost environment for developing decentralized applications (dApps) and cryptocurrencies.
                 </p>
-                <h1 className="my-6 text-m lg:text-xl font-semibold">What is the Proof of Staked Authority (PoSA)?</h1>
+                <h1 className="my-6 text-m lg:text-xl font-semibold">Solana Advantages</h1>
                 <p className="text-s lg:text-lg font-normal align-middle">
-                    Proof of Staked Authority (PoSA) is a consensus mechanism that combines elements of Proof of Stake (PoS) and Proof of Authority (PoA) to achieve efficient and secure blockchain operations. In PoSA, validators are chosen based on their staked assets and reputation within the network. This mechanism promotes decentralization and security while maintaining energy efficiency. Validators in the PoSA system stake their cryptocurrency as collateral, and in return, they gain the authority to validate transactions and create new blocks. If validators act dishonestly, they risk losing their stake, which ensures alignment with the network’s integrity. PoSA is particularly suited for scalable projects like Dinar Coin, as it supports high transaction speeds and reduced environmental impact.
+                    1. High transaction speed (up to 65,000 transactions per second).
                 </p>
+                <p className="text-s lg:text-lg font-normal align-middle">
+                    2. Low cost.
+                </p>
+                <p className="text-s lg:text-lg font-normal align-middle">
+                    3. Strong security.
+                </p>
+                <p className="text-s lg:text-lg font-normal align-middle">
+                    4. Support for artificial intelligence.
+                </p>
+                <p className="text-s lg:text-lg font-normal align-middle">
+                    5. Compatibility with many tools and ecosystems.
+                </p>
+
             </div>
             {/*---------------------------------------------------------*/}
 
