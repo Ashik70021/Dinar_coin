@@ -54,6 +54,7 @@ const Distribution = () => {
                                 </li>
                             ))}
                         </ul>
+                        <p className="text-xl text-white mt-12">team coins will be locked for a year and a half.</p>
                     </div>
                 </div>
             </div>

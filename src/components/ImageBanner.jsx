@@ -1,8 +1,9 @@
+import digitalbank from "../../public/image/digitalbank.jpg"
 const ImageBanner = () => {
     return (
-        <div className="w-full h-[60vh] sm:h-[70vh] md:h-[80vh] lg:h-[100vh] overflow-hidden">
+        <div className="w-full border-t-2 border-[#f3b841] sm:h-[70vh] md:h-[80vh] lg:h-[80vh] overflow-hidden">
             <img
-                src="../../public/image/dinarcoin.jpg"
+                src={digitalbank}
                 alt="Banner"
                 className="w-full h-full object-cover object-center"
             />
