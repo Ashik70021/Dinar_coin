@@ -7,7 +7,7 @@ const Banner = () => {
             <div className="hero-content flex-col lg:flex-row-reverse relative">
                 {/* Animated "Buy Now!" button at the top-right */}
                 <div className="buy-now-top">
-                    <button className="buy-now-button">Buy Now!</button>
+                    <button className="buy-now-button">Coming Soon</button>
                 </div>
                 
                 <img
@@ -17,7 +17,7 @@ const Banner = () => {
                 
                 {/* Animated "Buy Now!" button at the bottom-right */}
                 <div className="buy-now-bottom">
-                    <button className="buy-now-button">Buy Now!</button>
+                    <button className="buy-now-button">Coming Soon</button>
                 </div>
 
                 <div className="mr-12 sm:mx-4 lg:mx-0">

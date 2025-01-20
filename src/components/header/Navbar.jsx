@@ -25,7 +25,7 @@ const Navbar = () => {
 
       {/* Buy Now Button (Visible on desktop) */}
       <button className="hidden md:block bg-[#f3b841] text-[#161614] px-6 py-2 rounded-md font-bold text-sm hover:scale-105 transition-transform">
-        Buy Now
+        Coming Soon
       </button>
 
       {/* Mobile Sidebar Button */}
@@ -57,7 +57,7 @@ const Navbar = () => {
             onClick={toggleSidebar}
             className="bg-[#f3b841] text-[#161614] px-8 py-3 rounded-md font-bold text-lg hover:scale-105 transition-transform"
           >
-            Buy Now
+            Coming Soon
           </button>
         </div>
       )}

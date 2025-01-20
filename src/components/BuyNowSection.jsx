@@ -4,11 +4,6 @@ import cryptoLogo from '../../public/image/solana.png';
 const BuyNowSection = () => {
     return (
         <div className="bg-[#161614] py-16">
-            <div className="text-center text-white">
-                {/* Header */}
-                <h2 className="text-4xl font-bold mb-8 uppercase">Buy Now with a <br />Debit Card or Crypto!</h2>
-            </div>
-
             {/* Logos Section */}
             <div className="flex justify-center items-center gap-6 mx-6 lg:mx-56">
                 {/* Debit Card Logo */}
@@ -31,8 +26,8 @@ const BuyNowSection = () => {
 
             {/* Buy Now Button */}
             <div className="text-center mt-10">
-                <button className="px-6 py-3 bg-[#f3b841] text-[#161614] text-xl font-bold uppercase rounded-md hover:scale-105 transition-transform">
-                    Buy Now
+                <button className="px-6 py-3 bg-[#f3b841] text-[#161614] font-bold uppercase rounded-md hover:scale-105 transition-transform">
+                    Coming Soon
                 </button>
             </div>
         </div>
